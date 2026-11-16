@@ -2,7 +2,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 import shutil
 
-LOW_DISK_PERCENT = 20.0
+LOW_DISK_PERCENT = 25.0
 
 def disk_status(path):
  usage = shutil.disk_usage(path)
